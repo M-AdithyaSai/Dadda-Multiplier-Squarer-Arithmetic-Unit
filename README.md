@@ -59,12 +59,14 @@ The system uses the **Dadda reduction algorithm**, which minimizes the number of
 
 ## 📂 Repository Structure
 
+├── README.md # Project documentation
 
-Code:
-[new_integrated_dadda.txt](https://github.com/user-attachments/files/27387304/new_integrated_dadda.txt)
+├── Research Paper.pdf # Detailed research and design explanation
 
-Results:
-[Results For Dadda Project.pdf](https://github.com/user-attachments/files/27387710/Results.For.Dadda.Project.pdf)
+├── Results For Dadda Project.pdf # Simulation and performance results
+
+└── new_integrated_dadda.vhd # VHDL implementation (integrated design)
+
 
 
 ---

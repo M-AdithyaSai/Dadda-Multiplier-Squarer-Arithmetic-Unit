@@ -83,8 +83,9 @@ The system uses the **Dadda reduction algorithm**, which minimizes the number of
 **M Adithya Sai**  
 Electronics & Communication Engineering  
 
-Shaik Sharfuddin 
-Electronics & Communication Engineering 
+**Shaik Sharfuddin**  
+Electronics & Communication Engineering  
+
 
 ---
 

@@ -1,14 +1,88 @@
-Energy-Efficient Dadda Multiplier–Squarer Arithmetic Unit:
+# 🚀 Dadda Multiplier–Squarer Arithmetic Unit
 
-High-speed, low-power FPGA arithmetic unit using 4:2 compressors and a shared reconfigurable datapath. Implemented in VHDL and synthesized on Xilinx Vivado for improved speed and area efficiency.
+![FPGA](https://img.shields.io/badge/Platform-FPGA-blue)
+![VHDL](https://img.shields.io/badge/Language-VHDL-green)
+![Tool](https://img.shields.io/badge/Tool-Vivado-orange)
 
+## 📌 Project Overview
+This project implements a **high-speed, area-efficient arithmetic unit** by integrating a **Dadda multiplier** and a **squarer** using a **shared reconfigurable datapath**. The design is optimized for **low delay, reduced hardware utilization, and improved energy efficiency**, making it suitable for high-performance digital systems.
 
-Tools Used:
-VHDL, Vivado, FPGA, etc.
+---
+
+## 🎯 Key Contributions
+- Designed and implemented a **Dadda-based multiplier** for fast partial product reduction
+- Developed a **unified architecture for multiplier and squarer**
+- Optimized hardware using **shared datapath technique**
+- Incorporated **4:2 compressors** to reduce critical path delay
+- Achieved improvements in **area and speed trade-offs**
+- Verified functionality through **VHDL testbenches and simulations**
+
+---
+
+## ⚙️ Architecture Overview
+The system uses the **Dadda reduction algorithm**, which minimizes the number of reduction stages compared to conventional multipliers.
+
+### 🔹 Working Steps:
+1. Generate partial products  
+2. Reduce using **Dadda tree (HA/FA/4:2 compressors)**  
+3. Final addition using fast adder  
+4. Reconfigure datapath for **squaring operation**
+
+---
+
+## 🛠️ Tools & Technologies
+- **Hardware Description Language:** VHDL  
+- **EDA Tool:** Xilinx Vivado  
+- **Target Platform:** FPGA (Basys3 / equivalent)  
+- **Design Techniques:**  
+  - Dadda Reduction Tree  
+  - Compressor-based optimization  
+  - Shared datapath architecture  
+
+---
+
+## 📊 Performance Highlights
+- Reduced number of reduction stages vs Wallace multiplier  
+- Improved propagation delay using compressor logic  
+- Efficient utilization of FPGA resources (LUTs, slices)  
+- Optimized for **low power and high-speed computation**
+
+---
+
+## 📈 Applications
+- Digital Signal Processing (DSP)  
+- Image and video processing  
+- Embedded arithmetic units  
+- High-speed ALUs and processors  
+
+---
+
+## 📂 Repository Structure
+
 
 Code:
 [new_integrated_dadda.txt](https://github.com/user-attachments/files/27387304/new_integrated_dadda.txt)
 
 Results:
 [Results For Dadda Project.pdf](https://github.com/user-attachments/files/27387710/Results.For.Dadda.Project.pdf)
+
+
+---
+
+## 🔍 Future Improvements
+- Integration with pipelining for higher throughput  
+- ASIC-level optimization for power reduction  
+- Extension to signed multiplication (Booth encoding)  
+- Comparative analysis with Wallace and Booth multipliers  
+
+---
+
+## 👨‍💻 Author
+**M Adithya Sai**  
+Electronics & Communication Engineering  
+
+---
+
+## ⭐ Key Takeaway
+This project demonstrates **practical VLSI design skills**, focusing on **speed optimization, hardware efficiency, and real-world FPGA implementation**, aligning with modern digital system requirements.
 
